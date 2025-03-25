@@ -1,72 +1,60 @@
-📌 Actividad 3 - Proyecto PHP con Pandas
+# 📌 Actividad 3 - Proyecto PHP con Imagen de Panda
 
-Este proyecto de la actividad 3 combina PHP y Python con Pandas para ejecutar y mostrar resultados de análisis de datos de forma sencilla desde una página web.
+Este proyecto forma parte de la actividad 3, en donde se crea una página web sencilla en PHP que muestra un saludo personalizado junto con una imagen generada con inteligencia artificial (IA) de un oso panda.
 
-💻 Descripción del Proyecto
+## 💻 Descripción del Proyecto
 
-El objetivo de esta actividad es utilizar PHP como lenguaje interpretado que llama scripts de Python con Pandas para análisis y presentación de datos. El flujo consiste en:
+La página web desarrollada en PHP realiza las siguientes acciones:
 
-Ejecutar desde PHP un script en Python que realiza un análisis con Pandas.
+- Muestra un mensaje personalizado con el nombre del estudiante.
+- Incluye una imagen creada mediante inteligencia artificial (recomendada: Leonardo IA).
 
-Mostrar los resultados del script Python directamente en una página web generada por PHP.
+## 🚀 Cómo Ejecutar
 
-🧩 Flujo del Proyecto
+### Requisitos:
 
-PHP ejecuta un script en Python.
+- Servidor web local (XAMPP, WAMP, MAMP).
+- PHP instalado y funcionando correctamente.
 
-El script Python utiliza Pandas para procesar datos (ej.: lectura de CSV, cálculos estadísticos).
+### Ejecución:
 
-El resultado de la ejecución Python es capturado por PHP y mostrado en una página HTML.
+1. Copia el archivo PHP (`Actividad3.php`) y la imagen generada (ejemplo: `panda.jpg`) en la carpeta raíz del servidor web.
+2. Asegúrate de que el servidor Apache esté encendido.
+3. Abre tu navegador web y accede a:
 
-🚀 Cómo Ejecutar
+```url
+http://localhost/Actividad3.php
+```
 
-Requisitos:
+## 📂 Estructura del Proyecto:
 
-Servidor web local (XAMPP, WAMP, MAMP).
-
-PHP instalado.
-
-Python con la librería Pandas instalada.
-
-Ejecución:
-
-Coloca los archivos del proyecto en la carpeta raíz del servidor web.
-
-Asegúrate que el servidor Apache y PHP estén funcionando.
-
-Accede al proyecto a través del navegador con:
-
-http://localhost/tu_archivo_php.php
-
-📂 Estructura del Proyecto:
-
-📁 Proyecto_PHP_Pandas
- ├── tu_archivo_php.php (Código PHP principal)
- ├── analisis_pandas.py (Script Python con Pandas)
- ├── datos.csv (Opcional: datos de ejemplo)
+```
+📁 Proyecto_PHP_Panda
+ ├── Actividad3.php (Código PHP principal)
+ ├── panda.jpg (Imagen generada por IA)
  └── README.md (Este archivo)
+```
 
-📸 Ejemplo de resultado:
+## 📸 Ejemplo del resultado:
 
-Al acceder al sitio web generado por PHP, verás resultados procesados y presentados claramente, por ejemplo:
+Al acceder a la página generada por PHP, deberías visualizar un mensaje personalizado como:
 
-Promedio: 23.45
-Máximo: 45
-Mínimo: 12
+```
+Hola mundo, soy Carlos Joel Ixcamparij López
+```
 
-🛠️ Consideraciones adicionales:
+seguido por la imagen del panda generada por IA.
 
-Asegúrate de habilitar la ejecución de comandos Python desde PHP usando funciones como shell_exec() o exec().
+## 🛠️ Consideraciones adicionales:
 
-Verifica permisos adecuados en tu servidor web.
+- Verifica que la ruta a la imagen en tu código PHP sea correcta.
+- Confirma que la imagen esté en el formato adecuado (JPG, PNG).
 
-Autor:
+---
 
-Carlos Joel Ixcamparij López
-
-Carné: 25006741
-
-Curso: Fundamentos de Construcción de Software
-
-Universidad Galileo, Instituto Von Neumann.
+**Autor:**
+- Carlos Joel Ixcamparij López  
+- Carné: 25006741  
+- Curso: Fundamentos de Construcción de Software  
+- Universidad Galileo, Instituto Von Neumann.
 
